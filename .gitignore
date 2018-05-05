@@ -71,3 +71,6 @@ fabric.properties
 
 # End of https://www.gitignore.io/api/webstorm
 .DS_Store
+*.xml
+Assignment1:LiftManagement/.idea/.name
+*.iml
