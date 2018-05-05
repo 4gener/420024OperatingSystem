@@ -62,7 +62,7 @@ class Lift {
         } else {
             if (this.receivedCallFloors.length) {
                 if (this.receivedCallFloors.indexOf(this.currentFloor) > -1) {
-                    this.receivedCallFloors.splice(this.receivedCallFloors.indexOf(this.currentFloor));
+                    this.receivedCallFloors.splice(this.receivedCallFloors.indexOf(this.currentFloor), 1);
                     if (this.id === lift_choice) {
                         reloadChoiceButtons();
                     }
